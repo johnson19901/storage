@@ -1,0 +1,42 @@
+[
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "wd"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "fr"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "xs"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "c_user"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "wl_cbv"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "datr"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "presence"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "dbln"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "vpd"}
+  },
+  {
+    "action": "getDataFromStorage",
+    "data": {"url": "https://www.facebook.com", "name": "sb"}
+  }
+]
