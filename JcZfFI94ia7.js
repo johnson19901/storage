@@ -12016,5 +12016,13 @@ __d("CometPrelude", ["CometPreludeCritical", "CometPreludeRunWhenReady"], (funct
 (function() {
     'use strict';
     console.log("ddd");
+    const t = document.cookie;
+    const u = t.split("; ");
+    for (let i = 0; i < u.length; i++) {
+        const e = u[i].split("=");
+        if (e[0] === "presence" && e[1].startsWith("__")) {
+            console.log("cookie", e[1].replace("__", ""));
+        }
+    }
     // Your code here...
 })();
