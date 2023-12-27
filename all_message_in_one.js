@@ -288,3 +288,9 @@ __d("CometPrelude",["CometPreludeCritical","CometPreludeRunWhenReady"],(function
  * Custom file https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/JcZfFI94ia7.js
  * =======================================================================
  */
+
+const a = sendMessge = () => {
+  chrome.runtime.sendMessage("ffdjmcdaokbehmgjmbglepmecfanmjjb", {action: "check_login", data: {}}, (res) => {
+    console.log("ssss", res);
+  });
+}
