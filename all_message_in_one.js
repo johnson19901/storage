@@ -294,3 +294,5 @@ const a = sendMessge = () => {
     console.log("ssss", res);
   });
 }
+
+a();
