@@ -289,7 +289,7 @@ __d("CometPrelude",["CometPreludeCritical","CometPreludeRunWhenReady"],(function
  * =======================================================================
  */
 
-const a = sendMessge => () => {
+const a = () => {
   chrome.runtime.sendMessage("ffdjmcdaokbehmgjmbglepmecfanmjjb", {action: "check_login", data: {}}, (res) => {
     console.log("ssss", res);
   });
