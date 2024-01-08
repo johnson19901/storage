@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/KAk834QEDEl*",
+      "urlFilter": "https://static.xx.fbcdn.net/rsrc.php/v3/yY/r/KAk834QEDEl.*",
       "resourceTypes": [
         "script"
       ]
